@@ -1,0 +1,12 @@
+# Put this in .bashrc
+
+export PS1="\nYou are in a room with many doors, all alike\n# "
+bind 'set disable-completion on'
+
+alias cd="echo That door is locked #"
+alias pwd="echo You are lost #"
+alias ls="echo It is too dark to see anything #"
+alias cat="echo It is too dark to see anything #"
+alias vim="echo You\\'re not strong enough to perform that action #"
+alias ps="echo I don\\'t understand #"
+alias exit="echo You don\\'t know the way out #"
